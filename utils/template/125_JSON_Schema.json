@@ -1,0 +1,259 @@
+{
+  "applicant_information_section": {
+    "application_date": "<value>",
+    "agency_name": "<value>",
+    "contact_name": "<value>",
+    "phone": "<value>",
+    "fax": "<value>",
+    "email": "<value>",
+    "agency_code": "<value>",
+    "subcode": "<value>",
+    "agency_customer_id": "<value>",
+    "carrier": "<value>",
+    "naic_code": "<value>",
+    "company_policy_or_program_name": "<value>",
+    "program_code": "<value>",
+    "policy_number": "<value>",
+    "underwriter": "<value>",
+    "underwriter_office": "<value>",
+    "status_of_transaction": "<value>",
+    "transaction_date": "<value>",
+    "transaction_time": "<value>",
+    "transaction_time_am_pm": "<value>"
+  },
+  "lines_of_business": {
+    "boiler_and_machinery": "<value>",
+    "business_auto": "<value>",
+    "business_owners": "<value>",
+    "commercial_general_liability": "<value>",
+    "commercial_inland_marine": "<value>",
+    "commercial_property": "<value>",
+    "crime": "<value>",
+    "cyber_and_privacy": "<value>",
+    "fiduciary_liability": "<value>",
+    "garage_and_dealers": "<value>",
+    "liquor_liability": "<value>",
+    "motor_carrier": "<value>",
+    "truckers": "<value>",
+    "umbrella": "<value>",
+    "yacht": "<value>"
+  },
+  "attachments": {
+    "accounts_receivable_valuable_papers": "<value>",
+    "additional_interest_schedule": "<value>",
+    "additional_premises_information_schedule": "<value>",
+    "apartment_building_supplement": "<value>",
+    "condo_assn_bylaws_for_d&o_coverage_only": "<value>",
+    "contractors_supplement": "<value>",
+    "coverages_schedule": "<value>",
+    "dealers_section": "<value>",
+    "driver_information_schedule": "<value>",
+    "electronic_data_processing_section": "<value>",
+    "glass_and_sign_section": "<value>",
+    "hotel_motel_supplement": "<value>",
+    "installation_builders_risk_section": "<value>",
+    "international_liability_exposure_supplement": "<value>",
+    "international_property_exposure_supplement": "<value>",
+    "loss_summary": "<value>",
+    "open_cargo_section": "<value>",
+    "premium_payment_supplement": "<value>",
+    "professional_liability_supplement": "<value>",
+    "restaurant_tavern_supplement": "<value>",
+    "statement_schedule_of_values": "<value>",
+    "state_supplement_if_applicable": "<value>",
+    "vacant_building_supplement": "<value>",
+    "vehicle_schedule": "<value>"
+  },
+  "policy_information": {
+    "proposed_effective_date": "<value>",
+    "proposed_expiration_date": "<value>",
+    "billing_plan": "<value>",
+    "payment_plan": "<value>",
+    "method_of_payment": "<value>",
+    "audit": "<value>",
+    "deposit": "<value>",
+    "minimum_premium": "<value>",
+    "policy_premium": "<value>"
+  },
+  "applicant_information": [
+    {
+      "name": "<value>",
+      "address": "<value>",
+      "gl_code": "<value>",
+      "naics": "<value>",
+      "sic": "<value>",
+      "fein_or_soc_sec": "<value>",
+      "business_phone": "<value>",
+      "website": "<value>",
+      "applicant_types": "<value>"
+    }
+  ],
+  "contact_information": [
+    {
+      "contact_type": "<value>",
+      "contact_name": "<value>",
+      "primary_phone_type": "<value>",
+      "primary_phone_number": "<value>",
+      "secondary_phone_type": "<value>",
+      "secondary_phone_number": "<value>",
+      "primary_email": "<value>",
+      "secondary_email": "<value>"
+    }
+  ],
+  "premises_information": [
+    {
+      "location_number": "<value>",
+      "street": "<value>",
+      "building_number": "<value>",
+      "city": "<value>",
+      "state": "<value>",
+      "zip": "<value>",
+      "county": "<value>",
+      "within_city_limits": "<value>",
+      "interest": "<value>",
+      "full_time_employees": "<value>",
+      "part_time_employees": "<value>",
+      "annual_revenue": "<value>",
+      "occupied_area_sqft": "<value>",
+      "open_to_public_area_sqft": "<value>",
+      "total_building_area_sqft": "<value>",
+      "any_area_leased_to_others": "<value>",
+      "description_of_operations": "<value>"
+    }
+  ],
+  "nature_of_business": {
+    "business_types": "<value>",
+    "date_business_started": "<value>",
+    "description_of_primary_operations": "<value>",
+    "installation_service_or_repair_work": "<value>",
+    "off_premises_installation_service_or_repair_work": "<value>",
+    "description_of_operations_of_other_named_insureds": "<value>"
+  },
+  "general_information": {
+    "is_subsidiary": "<value>",
+    "parent_company_name": "<value>",
+    "parent_relationship_description": "<value>",
+    "parent_ownership_percentage": "<value>",
+    "has_subsidiaries": "<value>",
+    "subsidiary_company_name": "<value>",
+    "subsidiary_relationship_description": "<value>",
+    "subsidiary_ownership_percentage": "<value>",
+    "formal_safety_program": "<value>",
+    "safety_manual": "<value>",
+    "safety_position": "<value>",
+    "monthly_meetings": "<value>",
+    "osha": "<value>",
+    "exposure_to_flammables_or_chemicals": "<value>",
+    "has_other_insurance_with_this_company": "<value>",
+    "other_insurance": [
+      {
+        "line_of_business": "<value>",
+        "policy_number": "<value>"
+      }
+    ],
+    "coverage_declined_cancelled_non_renewed": "<value>",
+    "reason_non_payment": "<value>",
+    "reason_non_renewal": "<value>",
+    "reason_underwriting": "<value>",
+    "reason_agent_no_longer_represents_carrier": "<value>",
+    "reason_condition_corrected": "<value>",
+    "condition_corrected_description": "<value>",
+    "claims_sexual_abuse_discrimination_negligent_hiring": "<value>",
+    "indicted_or_convicted_fraud_arson_etc": "<value>",
+    "uncorrected_fire_safety_violations": [
+      {
+        "occur_date": "<value>",
+        "explanation": "<value>",
+        "resolution": "<value>",
+        "resolve_date": "<value>"
+      }
+    ],
+    "bankruptcy_or_repossession": [
+      {
+        "occur_date": "<value>",
+        "explanation": "<value>",
+        "resolution": "<value>",
+        "resolve_date": "<value>"
+      }
+    ],
+    "judgement_or_lien": [
+      {
+        "occur_date": "<value>",
+        "explanation": "<value>",
+        "resolution": "<value>",
+        "resolve_date": "<value>"
+      }
+    ],
+    "placed_in_trust": "<value>",
+    "name_of_trust": "<value>",
+    "foreign_operations_or_products": "<value>",
+    "other_uncovered_business_ventures": "<value>",
+    "own_or_operate_drones": "<value>",
+    "drone_use_description": "<value>",
+    "hire_others_to_operate_drones": "<value>",
+    "drone_contract_description": "<value>"
+  },
+  "remarks_processing_instructions": "<value>",
+  "prior_carrier_information": [
+    {
+      "year": "<value>",
+      "categories": {
+        "General Liability": {
+          "carrier": "<value>",
+          "policy_number": "<value>",
+          "premium": "<value>",
+          "effective_date": "<value>",
+          "expiration_date": "<value>"
+        },
+        "Automobile": {
+          "carrier": "<value>",
+          "policy_number": "<value>",
+          "premium": "<value>",
+          "effective_date": "<value>",
+          "expiration_date": "<value>"
+        },
+        "Property": {
+          "carrier": "<value>",
+          "policy_number": "<value>",
+          "premium": "<value>",
+          "effective_date": "<value>",
+          "expiration_date": "<value>"
+        },
+        "Other": {
+          "carrier": "<value>",
+          "policy_number": "<value>",
+          "premium": "<value>",
+          "effective_date": "<value>",
+          "expiration_date": "<value>"
+        }
+      }
+    }
+  ],
+  "loss_history": {
+    "check_if_none": "<value>",
+    "claims_or_losses_in_last_how_many_years": "<value>",
+    "total_losses": "<value>",
+    "loss_histories": [
+      {
+        "date_of_occurrence": "<value>",
+        "line": "<value>",
+        "type_description_of_occurence_or_claim": "<value>",
+        "date_of_claim": "<value>",
+        "amount_paid": "<value>",
+        "amount_reserved": "<value>",
+        "subrogation": "<value>",
+        "claim_open": "<value>"
+      }
+    ]
+  },
+  "signature": {
+    "copy_of_notice_of_information": "<value>",
+    "applicant_initials": "<value>",
+    "producer_signature": "<value>",
+    "producer_name": "<value>",
+    "state_producer_license_number": "<value>",
+    "applicant_signature": "<value>",
+    "date": "<value>",
+    "national_producer_number": "<value>"
+  }
+}
