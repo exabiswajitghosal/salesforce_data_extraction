@@ -12,7 +12,7 @@ from typing import List
 # Load environment variables
 load_dotenv()
 openai_api_key = os.getenv('OPENAI_API_KEY')
-
+openai_model = os.getenv('OPENAI_MODEL', 'gpt-4o-mini')
 
 
 def convert_pdf_base64_to_image_base64s(pdf_base64: str) -> List[str]:
@@ -61,7 +61,7 @@ def fetch_insights_from_base64_images(images: list):
             })
 
         data = {
-            "model": "gpt-4o-mini",
+            "model": openai_model,
             "messages": messages,
             "max_tokens": 2000,
             "temperature": 0,
@@ -112,7 +112,7 @@ def match_extracted_with_template_from_images(base64_images: list, submission_id
         return None
 
     try:
-        model = ChatOpenAI(model="gpt-4o-mini", temperature=0.1)
+        model = ChatOpenAI(model=openai_model, temperature=0.1)
         if form_type == "125":
             with open('utils/template/125_JSON_Schema.json') as f:
                 structure = f.read()
