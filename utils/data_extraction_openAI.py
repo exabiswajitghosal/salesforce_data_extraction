@@ -132,7 +132,8 @@ def match_extracted_with_template_from_images(base64_images: list, submission_id
         system_prompt = (
             "You are an AI assistant specialized in extracting structured information from documents. "
             "Please analyze the following extracted data and map it to the structure provided. "
-            "Replace <value> placeholders with actual values. If a value is missing, leave it blank. "
+            "Replace <value> placeholders with actual values. If a value is missing, leave it blank."
+            "Strictly follow the provided JSON structure and do not add any additional fields.\n\n"
             f"Return the full JSON structure:\n{structure}"
         )
 
