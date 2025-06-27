@@ -50,6 +50,12 @@ async def extract_from_pdf_base64(request: PDFBase64Request):
     if not pdf_base64:
         raise HTTPException(status_code=400, detail="PDF base64 data is required.")
 
+    if not form_type:
+        raise HTTPException(status_code=400, detail="Form type is required.")
+
+    if form_type not in ["125"]:
+        raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
+
     logger.info("Received PDF base64 data.")
     submission_id = str(uuid4())
 
@@ -75,13 +81,11 @@ async def extract_from_pdf_base64(request: PDFBase64Request):
 
     return {
         "message": "Data extracted successfully.",
-        "submission_id": submission_id,
-        "structured_data": result
+        "response": result
     }
 
 
 # Uvicorn server (when running directly)
 if __name__ == "__main__":
     import uvicorn
-
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000)
