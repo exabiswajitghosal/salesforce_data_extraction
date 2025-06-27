@@ -112,7 +112,7 @@ def match_extracted_with_template_from_images(base64_images: list, submission_id
         return None
 
     try:
-        model = ChatOpenAI(model=openai_model, temperature=0.1)
+        model = ChatOpenAI(model=openai_model, temperature=0)
         if form_type == "125":
             with open('utils/template/125_JSON_Schema.json') as f:
                 structure = f.read()

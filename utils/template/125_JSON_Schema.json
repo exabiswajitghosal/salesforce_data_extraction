@@ -16,10 +16,20 @@
     "policy_number": "<value>",
     "underwriter": "<value>",
     "underwriter_office": "<value>",
-    "status_of_transaction": "<value>",
+    "status_of_transaction": {
+      "quote": "<value>",
+      "issue_policy": "<value>",
+      "renew": "<value>",
+      "bound": "<value>",
+      "change": "<value>",
+      "cancel": "<value>"
+    },
     "transaction_date": "<value>",
     "transaction_time": "<value>",
-    "transaction_time_am_pm": "<value>"
+    "transaction_time_am_pm": {
+      "am": "<value>",
+      "pm": "<value>"
+    }
   },
   "lines_of_business": {
     "boiler_and_machinery": "<value>",
@@ -67,7 +77,10 @@
   "policy_information": {
     "proposed_effective_date": "<value>",
     "proposed_expiration_date": "<value>",
-    "billing_plan": "<value>",
+    "billing_plan": {
+      "direct": "<value>",
+      "agency": "<value>"
+    },
     "payment_plan": "<value>",
     "method_of_payment": "<value>",
     "audit": "<value>",
@@ -85,16 +98,36 @@
       "fein_or_soc_sec": "<value>",
       "business_phone": "<value>",
       "website": "<value>",
-      "applicant_types": "<value>"
+      "applicant_types": {
+        "corporation": "<value>",
+        "joint_venture": "<value>",
+        "not_for_profit_org": "<value>",
+        "subchapter_s_corporation": "<value>",
+        "other": "<value>",
+        "other_description": "<value>",
+        "individual": "<value>",
+        "llc": "<value>",
+        "no_of_members_and_managers": "<value>",
+        "partnership": "<value>",
+        "trust": "<value>"
+      }
     }
   ],
   "contact_information": [
     {
       "contact_type": "<value>",
       "contact_name": "<value>",
-      "primary_phone_type": "<value>",
+      "primary_phone_type": {
+        "home": "<value>",
+        "bus": "<value>",
+        "cell": "<value>"
+      },
       "primary_phone_number": "<value>",
-      "secondary_phone_type": "<value>",
+      "secondary_phone_type": {
+        "home": "<value>",
+        "bus": "<value>",
+        "cell": "<value>"
+      },
       "secondary_phone_number": "<value>",
       "primary_email": "<value>",
       "secondary_email": "<value>"
@@ -109,8 +142,18 @@
       "state": "<value>",
       "zip": "<value>",
       "county": "<value>",
-      "within_city_limits": "<value>",
-      "interest": "<value>",
+      "within_city_limits": {
+        "inside": "<value>",
+        "outside": "<value>",
+        "other": "<value>",
+        "other_description": "<value>"
+      },
+      "interest": {
+        "owner": "<value>",
+        "tenant": "<value>",
+        "other": "<value>",
+        "other_description": "<value>"
+      },
       "full_time_employees": "<value>",
       "part_time_employees": "<value>",
       "annual_revenue": "<value>",
@@ -122,7 +165,20 @@
     }
   ],
   "nature_of_business": {
-    "business_types": "<value>",
+    "business_types": {
+      "apartments": "<value>",
+      "contractor": "<value>",
+      "manufacturing": "<value>",
+      "restaurant": "<value>",
+      "service": "<value>",
+      "other": "<value>",
+      "condominiumns": "<value>",
+      "institutional": "<value>",
+      "office": "<value>",
+      "retail": "<value>",
+      "wholesale": "<value>"
+    },
+    "other_description": "<value>",
     "date_business_started": "<value>",
     "description_of_primary_operations": "<value>",
     "installation_service_or_repair_work": "<value>",
@@ -143,6 +199,7 @@
     "safety_position": "<value>",
     "monthly_meetings": "<value>",
     "osha": "<value>",
+    "other": "<value>",
     "exposure_to_flammables_or_chemicals": "<value>",
     "has_other_insurance_with_this_company": "<value>",
     "other_insurance": [
@@ -156,10 +213,15 @@
     "reason_non_renewal": "<value>",
     "reason_underwriting": "<value>",
     "reason_agent_no_longer_represents_carrier": "<value>",
+    "reason_other": "<value>",
+    "other_description": "<value>",
     "reason_condition_corrected": "<value>",
     "condition_corrected_description": "<value>",
     "claims_sexual_abuse_discrimination_negligent_hiring": "<value>",
+    "claims_sexual_abuse_discrimination_negligent_hiring_description": "<value>",
     "indicted_or_convicted_fraud_arson_etc": "<value>",
+    "indicted_or_convicted_fraud_arson_etc_description": "<value>",
+    "any_uncorrected_fire_safety_violations": "<value>",
     "uncorrected_fire_safety_violations": [
       {
         "occur_date": "<value>",
@@ -168,6 +230,7 @@
         "resolve_date": "<value>"
       }
     ],
+    "has_bankruptcy_or_repossession": "<value>",
     "bankruptcy_or_repossession": [
       {
         "occur_date": "<value>",
@@ -176,6 +239,7 @@
         "resolve_date": "<value>"
       }
     ],
+    "has_judgement_or_lien": "<value>",
     "judgement_or_lien": [
       {
         "occur_date": "<value>",
@@ -188,6 +252,7 @@
     "name_of_trust": "<value>",
     "foreign_operations_or_products": "<value>",
     "other_uncovered_business_ventures": "<value>",
+    "other_uncovered_business_ventures_description": "<value>",
     "own_or_operate_drones": "<value>",
     "drone_use_description": "<value>",
     "hire_others_to_operate_drones": "<value>",
