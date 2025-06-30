@@ -1,0 +1,307 @@
+{
+  "applicant_information_section": {
+    "application_date": "06/20/2025",
+    "agency_name": "Reliable Insurance Solutions",
+    "contact_name": "Jane Smith",
+    "phone": "(214) 555-1234",
+    "fax": "(214) 555-5678",
+    "email": "jane.smith@reliableins.com",
+    "agency_code": "",
+    "subcode": "",
+    "agency_customer_id": "ACME2025",
+    "carrier": "",
+    "naic_code": "",
+    "company_policy_or_program_name": "",
+    "program_code": "",
+    "policy_number": "",
+    "underwriter": "",
+    "underwriter_office": "",
+    "status_of_transaction": {
+      "quote": "Yes",
+      "issue_policy": "No",
+      "renew": "No",
+      "bound": "No",
+      "change": "No",
+      "cancel": "No"
+    },
+    "transaction_date": "",
+    "transaction_time": "",
+    "transaction_time_am_pm": {
+      "am": "No",
+      "pm": "No"
+    }
+  },
+  "lines_of_business": {
+    "boiler_and_machinery": "",
+    "business_auto": "$2500",
+    "business_owners": "$1500",
+    "commercial_general_liability": "$2000",
+    "commercial_inland_marine": "",
+    "commercial_property": "$3200",
+    "crime": "",
+    "cyber_and_privacy": "",
+    "fiduciary_liability": "",
+    "garage_and_dealers": "",
+    "liquor_liability": "",
+    "motor_carrier": "",
+    "truckers": "",
+    "umbrella": "",
+    "yacht": ""
+  },
+  "attachments": {
+    "accounts_receivable_valuable_papers": "No",
+    "additional_interest_schedule": "No",
+    "additional_premises_information_schedule": "No",
+    "apartment_building_supplement": "No",
+    "condo_assn_bylaws_for_d&o_coverage_only": "No",
+    "contractors_supplement": "No",
+    "coverages_schedule": "No",
+    "dealers_section": "No",
+    "driver_information_schedule": "No",
+    "electronic_data_processing_section": "No",
+    "glass_and_sign_section": "No",
+    "hotel_motel_supplement": "No",
+    "installation_builders_risk_section": "No",
+    "international_liability_exposure_supplement": "No",
+    "international_property_exposure_supplement": "No",
+    "loss_summary": "No",
+    "open_cargo_section": "No",
+    "premium_payment_supplement": "No",
+    "professional_liability_supplement": "No",
+    "restaurant_tavern_supplement": "No",
+    "statement_schedule_of_values": "No",
+    "state_supplement_if_applicable": "No",
+    "vacant_building_supplement": "No",
+    "vehicle_schedule": "No"
+  },
+  "policy_information": {
+    "proposed_effective_date": "07/01/2025",
+    "proposed_expiration_date": "07/01/2026",
+    "billing_plan": {
+      "direct": "Yes",
+      "agency": "No"
+    },
+    "payment_plan": "Annual",
+    "method_of_payment": "",
+    "audit": "No",
+    "deposit": "$",
+    "minimum_premium": "$",
+    "policy_premium": "$"
+  },
+  "applicant_information": [
+    {
+      "name": "ACME Corp.",
+      "address": "123 Main Street, Dallas, TX 75201",
+      "gl_code": "12345",
+      "naics": "541611",
+      "sic": "8742",
+      "fein_or_soc_sec": "12-3456789",
+      "business_phone": "(214) 555-7890",
+      "website": "http://www.acmecorp.com",
+      "applicant_types": {
+        "corporation": "Yes",
+        "joint_venture": "No",
+        "not_for_profit_org": "No",
+        "subchapter_s_corporation": "No",
+        "other": "No",
+        "other_description": "",
+        "individual": "No",
+        "llc": "No",
+        "no_of_members_and_managers": "",
+        "partnership": "No",
+        "trust": "No"
+      }
+    }
+  ],
+  "contact_information": [
+    {
+      "contact_type": "Primary",
+      "contact_name": "John Manager",
+      "primary_phone_type": {
+        "home": "No",
+        "bus": "Yes",
+        "cell": "No"
+      },
+      "primary_phone_number": "(214) 555-7890",
+      "secondary_phone_type": {
+        "home": "No",
+        "bus": "No",
+        "cell": "Yes"
+      },
+      "secondary_phone_number": "(214) 555-7891",
+      "primary_email": "j.manager@acmecorp.com",
+      "secondary_email": "j.m@acmecorp.com"
+    }
+  ],
+  "premises_information": [
+    {
+      "location_number": "1",
+      "street": "123 Main Street",
+      "building_number": "Building A",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75201",
+      "county": "Dallas",
+      "within_city_limits": {
+        "inside": "Yes",
+        "outside": "No",
+        "other": "No",
+        "other_description": ""
+      },
+      "interest": {
+        "owner": "Yes",
+        "tenant": "No",
+        "other": "No",
+        "other_description": ""
+      },
+      "full_time_employees": "50",
+      "part_time_employees": "10",
+      "annual_revenue": "$5,000,000",
+      "occupied_area_sqft": "10000",
+      "open_to_public_area_sqft": "2000",
+      "total_building_area_sqft": "15000",
+      "any_area_leased_to_others": "No",
+      "description_of_operations": "Office and consulting services"
+    }
+  ],
+  "nature_of_business": {
+    "business_types": {
+      "apartments": "No",
+      "contractor": "No",
+      "manufacturing": "No",
+      "restaurant": "No",
+      "service": "Yes",
+      "other": "No",
+      "condominiumns": "No",
+      "institutional": "No",
+      "office": "Yes",
+      "retail": "No",
+      "wholesale": "No"
+    },
+    "other_description": "",
+    "date_business_started": "01/15/2000",
+    "description_of_primary_operations": "Business consulting services",
+    "installation_service_or_repair_work": "No",
+    "off_premises_installation_service_or_repair_work": "No",
+    "description_of_operations_of_other_named_insureds": ""
+  },
+  "general_information": {
+    "is_subsidiary": "No",
+    "parent_company_name": "",
+    "parent_relationship_description": "",
+    "parent_ownership_percentage": "",
+    "has_subsidiaries": "No",
+    "subsidiary_company_name": "",
+    "subsidiary_relationship_description": "",
+    "subsidiary_ownership_percentage": "",
+    "formal_safety_program": "Yes",
+    "safety_manual": "Yes",
+    "safety_position": "Yes",
+    "monthly_meetings": "Yes",
+    "osha": "No",
+    "other": "",
+    "exposure_to_flammables_or_chemicals": "No",
+    "has_other_insurance_with_this_company": "No",
+    "other_insurance": [],
+    "coverage_declined_cancelled_non_renewed": "No",
+    "reason_non_payment": "",
+    "reason_non_renewal": "",
+    "reason_underwriting": "",
+    "reason_agent_no_longer_represents_carrier": "",
+    "reason_other": "",
+    "other_description": "",
+    "reason_condition_corrected": "",
+    "condition_corrected_description": "",
+    "claims_sexual_abuse_discrimination_negligent_hiring": "No",
+    "claims_sexual_abuse_discrimination_negligent_hiring_description": "",
+    "indicted_or_convicted_fraud_arson_etc": "No",
+    "indicted_or_convicted_fraud_arson_etc_description": "",
+    "any_uncorrected_fire_safety_violations": "No",
+    "uncorrected_fire_safety_violations": [],
+    "has_bankruptcy_or_repossession": "No",
+    "bankruptcy_or_repossession": [],
+    "has_judgement_or_lien": "No",
+    "judgement_or_lien": [],
+    "placed_in_trust": "No",
+    "name_of_trust": "",
+    "foreign_operations_or_products": "No",
+    "other_uncovered_business_ventures": "No",
+    "other_uncovered_business_ventures_description": "",
+    "own_or_operate_drones": "No",
+    "drone_use_description": "",
+    "hire_others_to_operate_drones": "No",
+    "drone_contract_description": ""
+  },
+  "prior_carrier_information": [
+    {
+      "year": "2024",
+      "categories": {
+        "General Liability": {
+          "carrier": "Global Insure",
+          "policy_number": "GL1234567",
+          "premium": "$1200",
+          "effective_date": "07/01/2024",
+          "expiration_date": "07/01/2025"
+        },
+        "Automobile": {
+          "carrier": "Auto Secure",
+          "policy_number": "AUTO890123",
+          "premium": "$1500",
+          "effective_date": "07/01/2024",
+          "expiration_date": "07/01/2025"
+        },
+        "Property": {
+          "carrier": "Safe Property Co.",
+          "policy_number": "PROP456789",
+          "premium": "$2000",
+          "effective_date": "07/01/2024",
+          "expiration_date": "07/01/2025"
+        },
+        "Other": {
+          "carrier": "",
+          "policy_number": "",
+          "premium": "",
+          "effective_date": "",
+          "expiration_date": ""
+        }
+      }
+    }
+  ],
+  "loss_history": {
+    "check_if_none": "No",
+    "claims_or_losses_in_last_how_many_years": "3",
+    "total_losses": "$3000",
+    "loss_histories": [
+      {
+        "date_of_occurrence": "03/12/2023",
+        "line": "General Liability",
+        "type_description_of_occurence_or_claim": "Slip and fall",
+        "date_of_claim": "03/15/2023",
+        "amount_paid": "$2000",
+        "amount_reserved": "$0",
+        "subrogation": "No",
+        "claim_open": "No"
+      },
+      {
+        "date_of_occurrence": "08/20/2022",
+        "line": "Property",
+        "type_description_of_occurence_or_claim": "Water damage",
+        "date_of_claim": "08/25/2022",
+        "amount_paid": "$1000",
+        "amount_reserved": "$0",
+        "subrogation": "No",
+        "claim_open": "No"
+      }
+    ]
+  },
+  "signature": {
+    "copy_of_notice_of_information": "Yes",
+    "applicant_initials": "JS",
+    "producer_signature": "Jane Smith",
+    "producer_name": "Jane Smith",
+    "state_producer_license_number": "TX123456",
+    "applicant_signature": "John Doe",
+    "date": "06/20/2025",
+    "national_producer_number": "789456123"
+  }
+}
