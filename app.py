@@ -1,8 +1,6 @@
 import json
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from uuid import uuid4
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict
 import logging
@@ -12,10 +10,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Import your functions
-from utils.data_extraction_openAI import (
-    convert_pdf_base64_to_image_base64s,
-    match_extracted_with_template_from_images
-)
+from utils.data_extraction_openAI import match_extracted_with_template_from_images
+from utils.pdf_to_img_base64 import convert_pdf_base64_to_image_base64s
 
 # Create FastAPI instance
 app = FastAPI()
