@@ -57,8 +57,8 @@ def match_extracted_with_template( pdf_base64: str,submission_id: str, form_type
             "You are an AI assistant specialized in extracting structured information from documents. "
             "Please analyze the following extracted data and map it to the structure provided. "
             "Replace <value> placeholders with actual values. If a value is missing, leave it blank."
-            "if there is any checkbox in the data, please return it as a boolean value."
-            "if not checked put false\n"
+            "if there is any checkbox in the data, please return it as yes or no."
+            "if the is any $ in the data, please return it as a number without $ sign.\n"
             "Strictly follow the provided JSON structure and do not add any additional fields.\n\n"
             f"Return the full JSON structure:\n{structure}"
         )
