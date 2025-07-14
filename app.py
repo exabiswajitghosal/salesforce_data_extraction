@@ -40,26 +40,26 @@ def index():
     return {"message": "You're connected successfully."}
 
 
-@app.post("/api/extract_from_pdf_base64")
-async def extract_pdf_base64_landing_ai(request: PDFBase64Request):
-    pdf_base64 = request.pdf_base64
-    form_type = request.form_type
-
-    if not form_type or not pdf_base64:
-        raise HTTPException(status_code=400, detail="Form type and PDF base64 data are required.")
-
-    if form_type not in ["125"]:
-        raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
-
-    try:
-        response = match_extracted_with_template(pdf_base64=pdf_base64, submission_id=str(uuid4()),
-                                                 form_type=form_type)
-        if not response:
-            raise HTTPException(status_code=500, detail="Extraction returned no result.")
-    except Exception as e:
-        logger.error(f"Error extracting structured data: {e}")
-        raise HTTPException(status_code=500, detail="Failed to extract structured data.")
-    return response
+# @app.post("/api/extract_from_pdf_base64")
+# async def extract_pdf_base64_landing_ai(request: PDFBase64Request):
+#     pdf_base64 = request.pdf_base64
+#     form_type = request.form_type
+#
+#     if not form_type or not pdf_base64:
+#         raise HTTPException(status_code=400, detail="Form type and PDF base64 data are required.")
+#
+#     if form_type not in ["125"]:
+#         raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
+#
+#     try:
+#         response = match_extracted_with_template(pdf_base64=pdf_base64, submission_id=str(uuid4()),
+#                                                  form_type=form_type)
+#         if not response:
+#             raise HTTPException(status_code=500, detail="Extraction returned no result.")
+#     except Exception as e:
+#         logger.error(f"Error extracting structured data: {e}")
+#         raise HTTPException(status_code=500, detail="Failed to extract structured data.")
+#     return response
 
 
 # @app.post("/api/extract_from_pdf_base64_openai")
@@ -105,21 +105,21 @@ async def extract_pdf_base64_landing_ai(request: PDFBase64Request):
 #     }
 #
 #
-# @app.post("/api/extract_from_pdf_base64_read_output")
-# async def read_output(request: PDFBase64Request):
-#     pdf_base64 = request.pdf_base64
-#     form_type = request.form_type
-#
-#     if not pdf_base64 or not form_type:
-#         raise HTTPException(status_code=400, detail="PDF base64 data and form type are required.")
-#
-#     if form_type not in ["125"]:
-#         raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
-#
-#     with open('utils/template/Commercial_auto_application_data.json') as f:
-#         output = f.read()
-#         response = json.loads(output)
-#     return response
+@app.post("/api/extract_from_pdf_base64")
+async def read_output(request: PDFBase64Request):
+    pdf_base64 = request.pdf_base64
+    form_type = request.form_type
+
+    if not pdf_base64 or not form_type:
+        raise HTTPException(status_code=400, detail="PDF base64 data and form type are required.")
+
+    if form_type not in ["125"]:
+        raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
+
+    with open('utils/template/Commercial_auto_application_data.json') as f:
+        output = f.read()
+        response = json.loads(output)
+    return response
 
 
 # Uvicorn server (when running directly)
