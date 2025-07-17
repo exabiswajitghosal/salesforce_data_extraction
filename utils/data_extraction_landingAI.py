@@ -37,16 +37,14 @@ def match_extracted_with_template( pdf_base64: str,submission_id: str, form_type
     try:
         model = ChatOpenAI(model=openai_model, temperature=0)
         if form_type == "125":
-            template_path = "utils/template/125_JSON_Schema.json"
-            with open(template_path,'r') as f:
+            with open("utils/template/125_JSON_Schema.json",'r') as f:
                 structure = f.read()
-        elif form_type == "127a":
-            return None
-            # with open('utils/template/127a_JSON_Schema.json') as f:
-            #     structure = f.read()
+        elif form_type == "127":
+            with open('utils/template/127_JSON_Schema.json') as f:
+                structure = f.read()
         elif form_type == "137":
             return None
-            # with open('utils/template/127b_JSON_Schema.json') as f:
+            # with open('utils/template/137_JSON_Schema.json') as f:
             #     structure = f.read()
         else:
             print(f"Unsupported form type: {form_type}")

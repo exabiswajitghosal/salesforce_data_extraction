@@ -1,0 +1,207 @@
+{
+  "business_auto_section": {
+    "form_date": "<value>",
+    "agency_customer_id": "<value>",
+    "agency_name": "<value>",
+    "policy_number": "<value>",
+    "effective_date": "<value>",
+    "carrier": "<value>",
+    "insured_name": "<value>",
+    "naic_code": "<value>"
+  },
+  "driver_information_section": {
+    "acord_137_attached": "<value>",
+    "drivers": [
+      {
+        "driver_number": "<value>",
+        "driver_name": "<value>",
+        "driver_city": "<value>",
+        "driver_state": "<value>",
+        "driver_zipcode": "<value>",
+        "sex": "<value>",
+        "marital_status": "<value>",
+        "date_of_birth": "<value>",
+        "years_driving_experience": "<value>",
+        "year_licensed": "<value>",
+        "driver_license_number": "<value>",
+        "license_state": "<value>",
+        "date_hire": "<value>",
+        "broaden_no_fault": "<value>",
+        "doc": "<value>",
+        "use_vehicle": "<value>",
+        "percent_use_of_vehicle": "<value>"
+      }
+    ]
+  },
+  "general_information_section": [
+    {
+      "has_owned_by_other": "<value>",
+      "owned_other": [
+        {
+          "veh_no": "<value>",
+          "name_of_other_owner": "<value>"
+        }
+      ],
+      "do_over_50_per_cent_of_emp_use_auto_in_the_business": "<value>",
+      "any_vehicle_maintanance_program_in_operation": "<value>",
+      "any_vehicle_maintanance_program_in_operation_description": "<value>",
+      "leased_by_other": "<value>",
+      "leased_other_description": "<value>",
+      "any_car_modified_or_special_equipment": "<value>",
+      "modified_or_equiped": [
+        {
+          "veh_no": "<value>",
+          "description": "<value>",
+          "cost": "<value>"
+        }
+      ],
+      "icc_puc_other_filling_required": "<value>",
+      "do_operation_involve_transporting_hazardous_material": "<value>",
+      "do_operation_involve_transporting_hazardous_material_description": "<value>",
+      "any_hold_harmless_agreements": "<value>",
+      "any_hold_harmless_agreements_description": "<value>",
+      "any_vehicle_used_by_family_members": "<value>",
+      "any_vehicle_used_by_family_members_description": "<value>",
+      "does_the_applicant_obtain_mvr_verification": "<value>",
+      "does_the_applicant_obtain_mvr_verification_description": "<value>",
+      "does_the_applicant_have_a_specific_driver_recruiting_method": "<value>",
+      "does_the_applicant_have_a_specific_driver_recruiting_method_description": "<value>",
+      "any_driver_not_covered_by_workers_compensation": "<value>",
+      "driver_not_covered_by_workers_compensation_description": "<value>",
+      "any_vehicle_owned_but_ot_schedule_on_this_app": "<value>",
+      "any_vehicle_owned_but_ot_schedule_on_this_app_description": "<value>",
+      "any_driver_with_coviction_for_moving_traffic_violation": "<value>",
+      "violation": [
+        {
+          "drv": "<value>",
+          "date": "<value>",
+          "type": "<value>",
+          "place": [
+            {
+              "city": "<value>",
+              "state": "<value>"
+            }
+          ],
+          "years_rev": "<value>"
+        }
+      ],
+      "has_agent_inspected_vehicle": "<value>",
+      "has_agent_inspected_vehicle_description": "<value>",
+      "are_all_vehicles_to_be_included_in_this_policy_part_of_a_fleet": "<value>",
+      "has_electronic_monitoring_devices_that_record_and_transmit_data_in_any_vehicle": "<value>",
+      "fleet_moitored_percentage": "<value>",
+      "fleet_vehicle_utilization_type": {
+        "monitor_driver_safety": "<value>",
+        "track_fuel_consumption": "<value>",
+        "monitor_vehicle_maintenance": "<value>",
+        "milage_tracking": "<value>",
+        "location_tracking": "<value>",
+        "navigation": "<value>",
+        "other": "<value>"
+      },
+      "other_description": "<value>",
+      "description_of_garage_storage_location": "<value>",
+      "max_dollar_value_subject_to_loss": "<value>"
+    }
+  ],
+  "remarks_for_vehicle": "<value>",
+  "vehicle_information_section": {
+    "acord_127_attached": "<value>",
+    "vehicle": [
+      {
+        "vehicle_number": "<value>",
+        "year": "<value>",
+        "make": "<value>",
+        "model": "<value>",
+        "body_type": "<value>",
+        "vin": "<value>",
+        "vehicle_type": {
+          "pp": "<value>",
+          "spec": "<value>",
+          "coml": "<value>"
+        },
+        "sym_age": "<value>",
+        "comp_otc_sym": "<value>",
+        "coll_sym": "<value>",
+        "garaging_address": {
+          "street": "<value>",
+          "city": "<value>",
+          "county": "<value>",
+          "state": "<value>",
+          "zip": "<value>"
+        },
+        "license_state": "<value>",
+        "terr": "<value>",
+        "gvw_gcw": "<value>",
+        "class": "<value>",
+        "sic": "<value>",
+        "factor": "<value>",
+        "sect_cp": "<value>",
+        "radius": "<value>",
+        "farthest_terminal": "<value>",
+        "cost_new": "<value>",
+        "use": {
+          "pleasure": "<value>",
+          "farm": "<value>",
+          "comml": "<value>",
+          "retail": "<value>",
+          "service": "<value>",
+          "for_hire": "<value>",
+          "other": "<value>"
+        },
+        "use_other_description": "<value>",
+        "check_coverage": {
+          "liab": "<value>",
+          "no_fault": "<value>",
+          "addl_no_fault": "<value>",
+          "med_pay": "<value>",
+          "unins_motor": "<value>",
+          "undrins_motor": "<value>",
+          "tower_and_labor": "<value>",
+          "spec_c_of_l": "<value>",
+          "f": "<value>",
+          "ft": "<value>",
+          "ftw": "<value>",
+          "lsp": "<value>",
+          "comp_otc": "<value>",
+          "coll": "<value>",
+          "rent_reimb": "<value>",
+          "fg": "<value>",
+          "other": "<value>"
+        },
+        "coverage_other_description": "<value>",
+        "deductibles": {
+          "aa": "<value>",
+          "acv": "<value>",
+          "st_amt": "<value>"
+        },
+        "deductible_amount": "<value>",
+        "is_comp_otc_sym": "<value>",
+        "comp_otc_sym_amount": "<value>",
+        "spec_c_of_l": {
+          "f": "<value>",
+          "f_and_t": "<value>",
+          "f_t_and_w": "<value>",
+          "lsp": "<value>",
+          "sp": "<value>"
+        },
+        "coll": "<value>",
+        "drive_to_work_school": {
+          "more_than_15_miles": "<value>",
+          "less_than_15_miles": "<value>"
+        },
+        "net_veh_dr_cr": "<value>",
+        "total_premium": "<value>"
+      }
+    ]
+  },
+  "remarks_for_driver": "<value>",
+  "signature_section": {
+    "producer_signature": "<value>",
+    "producer_name": "<value>",
+    "applicant_signature": "<value>",
+    "signature_date": "<value>",
+    "state_producer_license_number": "<value>",
+    "national_producer_number": "<value>"
+  }
+}

@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Import your functions
-from utils.data_extraction_openAI import match_extracted_with_template_from_images
-from utils.pdf_to_img_base64 import convert_pdf_base64_to_image_base64s
+# from utils.data_extraction_openAI import match_extracted_with_template_from_images
+# from utils.pdf_to_img_base64 import convert_pdf_base64_to_image_base64s
 from utils.data_extraction_landingAI import match_extracted_with_template
 
 # Create FastAPI instance
@@ -21,7 +21,7 @@ app = FastAPI()
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # ⚠️ Limit this to your frontend domain in production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -48,8 +48,8 @@ async def extract_pdf_base64_landing_ai(request: PDFBase64Request):
     if not form_type or not pdf_base64:
         raise HTTPException(status_code=400, detail="Form type and PDF base64 data are required.")
 
-    if form_type not in ["125"]:
-        raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127a, 137")
+    if form_type not in ["125","127", "137"]:
+        raise HTTPException(status_code=400, detail="Invalid form type. Supported types: 125, 127, 137")
 
     try:
         response = match_extracted_with_template(pdf_base64=pdf_base64, submission_id=str(uuid4()),
