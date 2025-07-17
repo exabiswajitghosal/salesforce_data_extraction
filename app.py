@@ -55,9 +55,7 @@ async def extract_pdf_base64_landing_ai(request: PDFBase64Request):
         response = match_extracted_with_template(pdf_base64=pdf_base64, submission_id=str(uuid4()),
                                                  form_type=form_type)
         if not response:
-            with open('utils/template/Commercial_auto_application_data.json') as f:
-                output = f.read()
-                response = json.loads(output)
+            raise HTTPException(status_code=500, detail="Extraction returned no result.")
     except Exception as e:
         logger.error(f"Error extracting structured data: {e}")
         raise HTTPException(status_code=500, detail="Failed to extract structured data.")
