@@ -33,11 +33,11 @@
   },
   "lines_of_business": {
     "boiler_and_machinery": "",
-    "business_auto": "$2500",
-    "business_owners": "$1500",
-    "commercial_general_liability": "$2000",
+    "business_auto": "2500",
+    "business_owners": "1500",
+    "commercial_general_liability": "2000",
     "commercial_inland_marine": "",
-    "commercial_property": "$3200",
+    "commercial_property": "3200",
     "crime": "",
     "cyber_and_privacy": "",
     "fiduciary_liability": "",
@@ -84,9 +84,9 @@
     "payment_plan": "Annual",
     "method_of_payment": "",
     "audit": "No",
-    "deposit": "$",
-    "minimum_premium": "$",
-    "policy_premium": "$"
+    "deposit": "",
+    "minimum_premium": "",
+    "policy_premium": ""
   },
   "applicant_information": [
     {
@@ -156,7 +156,7 @@
       },
       "full_time_employees": "50",
       "part_time_employees": "10",
-      "annual_revenue": "$5,000,000",
+      "annual_revenue": "5,000,000",
       "occupied_area_sqft": "10000",
       "open_to_public_area_sqft": "2000",
       "total_building_area_sqft": "15000",
@@ -239,21 +239,21 @@
         "General Liability": {
           "carrier": "Global Insure",
           "policy_number": "GL1234567",
-          "premium": "$1200",
+          "premium": "1200",
           "effective_date": "07/01/2024",
           "expiration_date": "07/01/2025"
         },
         "Automobile": {
           "carrier": "Auto Secure",
           "policy_number": "AUTO890123",
-          "premium": "$1500",
+          "premium": "1500",
           "effective_date": "07/01/2024",
           "expiration_date": "07/01/2025"
         },
         "Property": {
           "carrier": "Safe Property Co.",
           "policy_number": "PROP456789",
-          "premium": "$2000",
+          "premium": "2000",
           "effective_date": "07/01/2024",
           "expiration_date": "07/01/2025"
         },
@@ -270,15 +270,15 @@
   "loss_history": {
     "check_if_none": "No",
     "claims_or_losses_in_last_how_many_years": "3",
-    "total_losses": "$3000",
+    "total_losses": "3000",
     "loss_histories": [
       {
         "date_of_occurrence": "03/12/2023",
         "line": "General Liability",
         "type_description_of_occurence_or_claim": "Slip and fall",
         "date_of_claim": "03/15/2023",
-        "amount_paid": "$2000",
-        "amount_reserved": "$0",
+        "amount_paid": "2000",
+        "amount_reserved": "0",
         "subrogation": "No",
         "claim_open": "No"
       },
@@ -287,8 +287,8 @@
         "line": "Property",
         "type_description_of_occurence_or_claim": "Water damage",
         "date_of_claim": "08/25/2022",
-        "amount_paid": "$1000",
-        "amount_reserved": "$0",
+        "amount_paid": "1000",
+        "amount_reserved": "0",
         "subrogation": "No",
         "claim_open": "No"
       }
