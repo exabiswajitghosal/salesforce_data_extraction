@@ -33,77 +33,75 @@
       }
     ]
   },
-  "general_information_section": [
-    {
-      "has_owned_by_other": "<value>",
-      "owned_other": [
-        {
-          "veh_no": "<value>",
-          "name_of_other_owner": "<value>"
-        }
-      ],
-      "do_over_50_per_cent_of_emp_use_auto_in_the_business": "<value>",
-      "any_vehicle_maintanance_program_in_operation": "<value>",
-      "any_vehicle_maintanance_program_in_operation_description": "<value>",
-      "leased_by_other": "<value>",
-      "leased_other_description": "<value>",
-      "any_car_modified_or_special_equipment": "<value>",
-      "modified_or_equiped": [
-        {
-          "veh_no": "<value>",
-          "description": "<value>",
-          "cost": "<value>"
-        }
-      ],
-      "icc_puc_other_filling_required": "<value>",
-      "do_operation_involve_transporting_hazardous_material": "<value>",
-      "do_operation_involve_transporting_hazardous_material_description": "<value>",
-      "any_hold_harmless_agreements": "<value>",
-      "any_hold_harmless_agreements_description": "<value>",
-      "any_vehicle_used_by_family_members": "<value>",
-      "any_vehicle_used_by_family_members_description": "<value>",
-      "does_the_applicant_obtain_mvr_verification": "<value>",
-      "does_the_applicant_obtain_mvr_verification_description": "<value>",
-      "does_the_applicant_have_a_specific_driver_recruiting_method": "<value>",
-      "does_the_applicant_have_a_specific_driver_recruiting_method_description": "<value>",
-      "any_driver_not_covered_by_workers_compensation": "<value>",
-      "driver_not_covered_by_workers_compensation_description": "<value>",
-      "any_vehicle_owned_but_ot_schedule_on_this_app": "<value>",
-      "any_vehicle_owned_but_ot_schedule_on_this_app_description": "<value>",
-      "any_driver_with_coviction_for_moving_traffic_violation": "<value>",
-      "violation": [
-        {
-          "drv": "<value>",
-          "date": "<value>",
-          "type": "<value>",
-          "place": [
-            {
-              "city": "<value>",
-              "state": "<value>"
-            }
-          ],
-          "years_rev": "<value>"
-        }
-      ],
-      "has_agent_inspected_vehicle": "<value>",
-      "has_agent_inspected_vehicle_description": "<value>",
-      "are_all_vehicles_to_be_included_in_this_policy_part_of_a_fleet": "<value>",
-      "has_electronic_monitoring_devices_that_record_and_transmit_data_in_any_vehicle": "<value>",
-      "fleet_moitored_percentage": "<value>",
-      "fleet_vehicle_utilization_type": {
-        "monitor_driver_safety": "<value>",
-        "track_fuel_consumption": "<value>",
-        "monitor_vehicle_maintenance": "<value>",
-        "milage_tracking": "<value>",
-        "location_tracking": "<value>",
-        "navigation": "<value>",
-        "other": "<value>"
-      },
-      "other_description": "<value>",
-      "description_of_garage_storage_location": "<value>",
-      "max_dollar_value_subject_to_loss": "<value>"
-    }
-  ],
+  "general_information_section": {
+    "has_owned_by_other": "<value>",
+    "owned_other": [
+      {
+        "veh_no": "<value>",
+        "name_of_other_owner": "<value>"
+      }
+    ],
+    "do_over_50_per_cent_of_emp_use_auto_in_the_business": "<value>",
+    "any_vehicle_maintanance_program_in_operation": "<value>",
+    "any_vehicle_maintanance_program_in_operation_description": "<value>",
+    "leased_by_other": "<value>",
+    "leased_other_description": "<value>",
+    "any_car_modified_or_special_equipment": "<value>",
+    "modified_or_equiped": [
+      {
+        "veh_no": "<value>",
+        "description": "<value>",
+        "cost": "<value>"
+      }
+    ],
+    "icc_puc_other_filling_required": "<value>",
+    "do_operation_involve_transporting_hazardous_material": "<value>",
+    "do_operation_involve_transporting_hazardous_material_description": "<value>",
+    "any_hold_harmless_agreements": "<value>",
+    "any_hold_harmless_agreements_description": "<value>",
+    "any_vehicle_used_by_family_members": "<value>",
+    "any_vehicle_used_by_family_members_description": "<value>",
+    "does_the_applicant_obtain_mvr_verification": "<value>",
+    "does_the_applicant_obtain_mvr_verification_description": "<value>",
+    "does_the_applicant_have_a_specific_driver_recruiting_method": "<value>",
+    "does_the_applicant_have_a_specific_driver_recruiting_method_description": "<value>",
+    "any_driver_not_covered_by_workers_compensation": "<value>",
+    "driver_not_covered_by_workers_compensation_description": "<value>",
+    "any_vehicle_owned_but_ot_schedule_on_this_app": "<value>",
+    "any_vehicle_owned_but_ot_schedule_on_this_app_description": "<value>",
+    "any_driver_with_coviction_for_moving_traffic_violation": "<value>",
+    "violation": [
+      {
+        "drv": "<value>",
+        "date": "<value>",
+        "type": "<value>",
+        "place": [
+          {
+            "city": "<value>",
+            "state": "<value>"
+          }
+        ],
+        "years_rev": "<value>"
+      }
+    ],
+    "has_agent_inspected_vehicle": "<value>",
+    "has_agent_inspected_vehicle_description": "<value>",
+    "are_all_vehicles_to_be_included_in_this_policy_part_of_a_fleet": "<value>",
+    "has_electronic_monitoring_devices_that_record_and_transmit_data_in_any_vehicle": "<value>",
+    "fleet_moitored_percentage": "<value>",
+    "fleet_vehicle_utilization_type": {
+      "monitor_driver_safety": "<value>",
+      "track_fuel_consumption": "<value>",
+      "monitor_vehicle_maintenance": "<value>",
+      "milage_tracking": "<value>",
+      "location_tracking": "<value>",
+      "navigation": "<value>",
+      "other": "<value>"
+    },
+    "other_description": "<value>",
+    "description_of_garage_storage_location": "<value>",
+    "max_dollar_value_subject_to_loss": "<value>"
+  },
   "remarks_for_vehicle": "<value>",
   "vehicle_information_section": {
     "acord_127_attached": "<value>",
@@ -178,7 +176,8 @@
         "deductible_amount": "<value>",
         "is_comp_otc_sym": "<value>",
         "comp_otc_sym_amount": "<value>",
-        "spec_c_of_l": {
+        "spec_c_of_l": "<value>",
+        "spec_c_of_l_type": {
           "f": "<value>",
           "f_and_t": "<value>",
           "f_t_and_w": "<value>",
